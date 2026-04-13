@@ -113,7 +113,7 @@ element:
   text_position: above
   tooltip: Select the collection to add the model to
   method: set_collection_toml
-  module: delftdashboard.toolboxes.model_database.add_model
+  module: delftdashboard_model_database_toolbox.add_model
   variable: selected_collection_toml
   variable_group: model_database
   select: item

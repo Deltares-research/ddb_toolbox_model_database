@@ -8,7 +8,7 @@ element:
   text: "Available Domains"
   text_position: "above"
   method: select_model
-  module: delftdashboard.toolboxes.model_database.generate_database
+  module: delftdashboard_model_database_toolbox.generate_database
   variable: model_index
   variable_group: model_database
   select: index
@@ -25,7 +25,7 @@ element:
     width: 200
     height: 20
   method: select_collection
-  module: delftdashboard.toolboxes.model_database.generate_database
+  module: delftdashboard_model_database_toolbox.generate_database
   variable: active_collection
   variable_group: model_database
   select: item
@@ -45,6 +45,6 @@ element:
     height: 20
   method: update_map
   text: Plot all
-  module: delftdashboard.toolboxes.model_database.generate_database
+  module: delftdashboard_model_database_toolbox.generate_database
   tooltip: Plot all domains on the map
 
