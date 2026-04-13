@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "delftdashboard-model-database-toolbox"
+name = "delftdashboard_model_database_toolbox"
 description = "Delft Dashboard toolbox for managing collections of pre-built model domains"
 readme = "README.md"
 authors = [
