@@ -67,6 +67,7 @@ class Toolbox(GenericToolbox):
         app.gui.setvar(group, "show_sfincs", True)
         app.gui.setvar(group, "show_hurrywave", True)
 
+        app.gui.setvar(group, "active_model_name", "")
         app.gui.setvar(group, "active_model_type", [])
         app.gui.setvar(group, "active_model_crs", [])
 
